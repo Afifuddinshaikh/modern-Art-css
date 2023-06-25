@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    background-color: #fff5ee;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'ubuntu',sans-serif;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    
+}
+.page-heads{
+    font-family: 'pacifico',cursive;
+    
+    
+    padding-left: 30px;
+    
+
+}
+.header-section{
+    
+    
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    
+
+    }
+    .nav {
+        margin-right: 15px;
+        
+        
+        transition: color;
+    }
+    .nav a{
+        
+        padding-right: 25px;
+        border-right: 1px solid black;
+        padding-left: 25px;
+        color: black;
+        transition: color .3s ease-in-out;
+    }
+    .nav a:last-child{
+        border-right: none;
+    }
+    .nav a :hover{
+        color: brown;
+    }
+    .arts{
+        max-width: 1400px;
+        margin: 30px auto;
+
+    }
+    .arts img{
+        width: 100%;
+    }
+    .artist-text{
+        display: flex;
+        max-width: 1400px;
+        margin: 50px auto;
+        justify-content: space-between;
+        border-bottom: 2px solid black;
+        padding-bottom: 15px;
+    }
+    .artist-name{
+        margin-right: 50px;
+        
+    }
+    .artist-name:last-child{
+        margin: 0;
+    }
+    .test{
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+    .shape{
+        width: 16px;
+        height: 32px;
+        position: relative;
+        background-color: aqua;
+        margin-right: 20px;
+    }
+    .shape:before{
+        content: "";
+        position: absolute;
+        right: -16px;
+        height: 0;
+        width: 0;
+        border: 0;
+        border-left: 16px solid aqua;
+        border-top: 16px solid transparent;
+        border-bottom: 16px solid transparent;
+    }
+    .artist-name a{
+        color: aqua;
+    }
+    .img-f img{
+        width: 30%;
+        filter:grayscale(100);
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+        border: 4px solid transparent;
+    }
+    .img-f img:hover{
+        filter:grayscale(0);
+        border: 4px solid red;
+        transform: scale(1.1);
+    }
+    .art-img{
+        max-width: 1400px;
+        margin: 0 auto;
+        text-align: right;
+        margin-bottom: 50px;
+
+    }
+    .img-f{
+        margin: 15px auto;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .art-img a{
+        font-size: 20px;
+        color: aqua;
+        transition: all .3s ease-in-out;
+    }
+    .art-img a:hover{
+        color:red;
+    }
+    footer{
+        max-width: 1400px;
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+        
+    }
